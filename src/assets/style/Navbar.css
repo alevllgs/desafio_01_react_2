@@ -1,0 +1,35 @@
+.navbar {
+    background-color: red; 
+    padding: 0px; 
+    width: 100%; 
+    position: fixed; 
+    top: 0; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+  }
+  
+  .navbar ul {
+    list-style-type: none; 
+    margin: 20px;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    display: inline; 
+    margin-right: 40px; 
+  }
+  
+  .navbar ul li a {
+    color: white; 
+    text-decoration: none; 
+  }
+  
+  .navbar ul li a:hover {
+    color: yellow; 
+  }
+  
+  .right-section {
+    margin-right: 25px; 
+  }
+  
